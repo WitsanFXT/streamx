@@ -14,6 +14,8 @@ import SearchPage from './pages/SearchPage';
 import MovieDetailPage from './pages/MovieDetailPage';
 import SeriesDetailPage from './pages/SeriesDetailPage';
 
+// teste
+
 const AuthenticatedApp = () => {
   const { isLoadingAuth, isLoadingPublicSettings, authError, navigateToLogin } = useAuth();
 
