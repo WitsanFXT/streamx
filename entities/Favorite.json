@@ -1,0 +1,32 @@
+{
+  "name": "Favorite",
+  "type": "object",
+  "properties": {
+    "tmdb_id": {
+      "type": "number",
+      "description": "TMDb ID do filme/s\u00e9rie"
+    },
+    "media_type": {
+      "type": "string",
+      "enum": [
+        "movie",
+        "tv"
+      ],
+      "description": "Tipo de m\u00eddia"
+    },
+    "title": {
+      "type": "string"
+    },
+    "poster_path": {
+      "type": "string"
+    },
+    "vote_average": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "tmdb_id",
+    "media_type",
+    "title"
+  ]
+}
